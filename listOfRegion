@@ -1,0 +1,16 @@
+{
+    "city": [
+        {
+            "id": 1,
+            "name": "Sumbawa"
+        },
+        {
+            "id": 2,
+            "name": "Sulawesi"
+        },
+        {
+            "id": 3,
+            "name": "Jawa"
+        }
+    ]
+}
