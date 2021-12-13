@@ -13,7 +13,11 @@ async def most_frequent_earthquake_region_indonesia():
 @app.get("/region/{region_id}/")
 async def earthquake_cluster_analysis(region_id : int):
     if region_id == 1:
-        return FileResponse("sumbawaEarthquake.png") #tinggal nambahin data selanjutnya
+        return FileResponse("sumbawaEarthquake.png")
+    elif region_id == 2:
+        return FileResponse("MinahasaEarthQuake.png")
+    elif region_id == 3:
+        return FileResponse("JavaEarthQuake.png")
     else:
         raise fastapi.HTTPException(
 			status_code = 404,
